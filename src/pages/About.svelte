@@ -18,6 +18,7 @@
         your car rental experience convenient, efficient, and enjoyable and
         become your go-to choice for car rentals.
       </p>
+      <p>AutoGo was founded in 2005 by a bunch of carlovers in a bid to fuse travel with luxurious transportation.Our company is managed by a board of directors</p>
     </div>
   </div>
   <div class="layer15">
@@ -101,7 +102,7 @@
   .layer1 {
     width: 100%;
     background-color: #7b3f00;
-    height: 50vh;
+    height: 65vh;
   }
   .layer2 {
     width: 100%;
@@ -118,7 +119,7 @@
   .layer15 {
     position: absolute;
     width: 35%;
-    top: 27%;
+    top: 34.5%;
     right: 8%;
     z-index: 1;
   }
@@ -139,7 +140,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 37%;
-    top: 33%;
+    top: 38%;
     left: 4%;
     font-size: 26px;
   }

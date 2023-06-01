@@ -2,6 +2,7 @@
   import Footer from '../footer.svelte';
   import Con from "../con.svelte";
   import Header from '../Header.svelte';
+  
 </script>
 <Header/>
 <div class="uno">
@@ -12,19 +13,20 @@
 </div>
 <div class="fin">
   <div class="fin1">
-    <div style = "margin-top:16px;"> Address</div>
-    <div style ="margin-top:7px; font-size:12px">785 Ronald Ngala street</div>
-    <div style = "font-size:12px">Nairobi</div>
+    <div style = "margin-top:21px; font-weight:bold;"> Address</div>
+    <div style ="margin-top:7px; font-size:15px">785 Ronald Ngala street</div>
+    <div style = "font-size:15px">Nairobi</div>
    
 
   </div>
   <div class="fin2">
-    <div style = "margin-top:16px;">Contacts</div>
-    <div style ="margin-top:7px; font-size:12px">0715067768</div>
-    <div style = "font-size:12px"> infoAutogo@gmail.com</div>
+    <div style = "margin-top:21px; font-weight:bold;">Contacts</div>
+    <div style ="margin-top:7px; font-size:15px">0715067768</div>
+    <div style = "font-size:15px"> infoAutogo@gmail.com</div>
     
   </div>
 </div>
+<Footer/>
 
 
 
@@ -52,7 +54,7 @@
     position: absolute;
     top: 0%;
     right: 0%;
-    width: 60%;
+    width: 70%;
     opacity: 0.7;
     height: 100vh;
     overflow: hidden;
@@ -67,7 +69,7 @@
     justify-content: space-evenly;
     color: chocolate;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    height:140px;
+    height:32vh;
     align-items: center;
     border:8px solid transparent;
     border-image: url(/tree.jpg) 10% round;

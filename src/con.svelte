@@ -1,4 +1,5 @@
 <script>
+  import {navigate} from "svelte-routing";
 </script>
 
 <div class = uno>
@@ -29,7 +30,7 @@
         <label>Hours</label>
         <input type="number" />
       <br>
-      <button style = "border:1px solid black; padding:5px;" >submit</button>
+      <button on:click={(e)=> navigate("/contact")} style = "border:1px solid black; padding:5px;" >submit</button>
     </form>
   </div>
 </div>

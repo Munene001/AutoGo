@@ -3,96 +3,151 @@
 </script>
 
 <div class="uno">
-  <div class="first">
-    <div><img src="./logo3.jpg" alt="logo" /></div>
-    <div style="font-size:16px; color:black;margin-top:5px;">Terms and Conditions apply</div>
-    
-    
+  <div class = logo><img src = "logo3.jpg" alt = logo/></div>
+  <div class="layer1">
+    <div style="font-weight:bold; font-size:25px;color:black">Details</div>
+    <div style="margin-top:3%;">785 Ronald Ngala street</div>
+    <div style="margin-top:3%;">0715067768</div>
+    <div style="margin-top:3%;">Info@Autogo.com</div>
   </div>
-  <div class = second>
-    <div style="color:white;">AutoGo</div>
-    <div style="color:white;">Services </div>
-    <div style = color:white;>Support</div>
+  <div class="layer2">
+    <div style="font-weight:bold; font-size:25px;color:black">
+      Informative Searches
+    </div>
+    <div style="margin-top:3%; color:white;">
+      <a href="https://openroadodysseys.com/the-most-comfortable-car-to-rent/">Best Cars to rent</a>
+    </div>
+    <div style="margin-top:3%;">
+      <a href="https://www.quora.com/If-you-had-to-choose-between-a-luxury-car-and-a-sports-car-which-would-be-it">Luxury vs Speed </a>
+    </div>
+    <div style="margin-top:3%;">
+      <a href="https://www.edmunds.com/car-buying/10-steps-to-finding-the-right-car-for-you.html"
+        >Tips on what to look for in a car</a
+      >
+    </div>
+    <div  class = copy1 style = " font-size:17px;color:white"><i>@Copyright 2023</i></div>
   </div>
-  <div class="third">
-    <div
-      style="font-size:17px; color:white; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; "
-    >
-      For inquiry
-    </div>
-    <div
-      style="font-size:17px; color:white; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-right:15px;"
-    >
-       Call<Icon icon="fluent:call-28-filled" />
-    </div>
-    <div style="font-size:20px; color:black;">0715067768</div>
+  <div class="layer3">
+    <div style="font-weight:bold; font-size:25px;color:black">Engage Us</div>
+    <div style="margin-top:3%;">Social Media platforms</div>
     <div class="layerz">
-    <div><Icon icon="logos:facebook" /></div>
-    <div><Icon icon="skill-icons:twitter" /></div>
-    <div><Icon icon="skill-icons:linkedin" /></div>
+      <div style = "margin-left:3%;"><Icon icon="logos:facebook" /></div>
+      <div style = "margin-left:3%;"><Icon icon="skill-icons:twitter" /></div>
+      <div style = "margin-left:3%;"><Icon icon="skill-icons:linkedin" /></div>
+    </div>
+
+    
+  
   </div>
-  </div>
-  <div class = free>@Copyright 2023</div>
+  <div  class = copy style = " font-size:17px;color:white"><i>@Copyright 2023</i></div>
 </div>
 
 <style>
   .uno {
-    display: flex;
-    flex-direction: row;
-    background-color:#7b3f00;
-    height: 25vh;
-    align-items: center; /* Align items vertically in the center */
+    background-color: chocolate;
+
     position: relative;
-    justify-content:space-around;
-  
-   
-  }
-  .first {
     display: flex;
     flex-direction: column;
+    
+  }
+
+  .layer1 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  
+    font-size: 16px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 7%;
   }
-  .first img {
-    width: 25%;
-    height: auto;
+  .layer2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 7%;
   }
-  .third {
-    display: flex;
-    flex-direction: column;
+  .layer2 a {
+    color: darkblue;
+  }
+  .layer3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 7%;
+  }
+  .logo{
+   position: absolute;
+   top:7%;
+   left:79%;
+   width: 35%;
+   
+  }
+  .logo img{
+    width: 50%;
+  }
+
+  .layerz{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3%;
+   
+
 
   }
-  .layerz {
-    display: flex;
-    flex-flow: wrap-reverse;
-    align-items: center; /* Align items vertically in the center */
-    gap: 10px;
-    margin-top: 14px;
-  }
-  .free{
-    position:absolute;
-    bottom: 5%;
-    left:41%;
-    color:silver;
-    margin-top: 30px;
+  .copy{
+    align-items: center;
     display: flex;
     justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
-  .second{
+  @media (max-width:768px){
+  .copy1{
     display:none;
+  }
+}
     
-  }
-  @media (min-width:768px){
-    .second{
-    display:none;
-    
-  }
-  .uno{
-    height:23vh;
-  }
- 
-  
 
+
+  
+  @media (min-width:768px){
+    .uno{
+     
+      flex-direction: row;
+      display: flex;
+      justify-content: space-evenly;
+      height: 31.5vh;
+
+
+    }
+    .logo{
+      display: none;
+    }
+    .layer1{
+      margin-top: 3%;
+    }
+    .layer2{
+      margin-top: 3%;
+    }
+    .layer3{
+      margin-top: 3%;
+    }
+    .copy{
+      display:none;
+    }
+    .copy1{
+      display: flex;
+      margin-top: 8.5%;
+    }
+    .layerz{
+      display: flex;
+      font-size: 22px;
+     
+    }
   }
 </style>

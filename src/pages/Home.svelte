@@ -45,6 +45,7 @@
     <div style="margin-top: 15px;">Pay payment</div>
   </div>
 </div>
+<Footer/>
 
 
 <style>
@@ -103,6 +104,10 @@
     flex: column;
     color: white;
     justify-content: space-around;
+    height:18.5vh;
+
+   
+    align-items: center;
   }
   .lower {
     display: flex;
@@ -110,6 +115,7 @@
     align-items: center;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
   }
   .icon-container {
     display: inline-block;
@@ -119,9 +125,12 @@
     border: 1px solid white; /* Set your desired border color and thickness */
     text-align: center;
     line-height: 50px;
+   
   }
   .inbetween {
-    font-size: 30px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
     align-items: center;
     animation-name: right;
     animation-duration: 5s;
@@ -130,10 +139,10 @@
   }
   @keyframes right {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(-55%);
     }
     100% {
-      transform: translateX(100%);
+      transform: translateX(55%);
     }
   }
   .arrow {
